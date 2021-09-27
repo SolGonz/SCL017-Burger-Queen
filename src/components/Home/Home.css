@@ -1,0 +1,62 @@
+.home-container{
+    display: flex;
+    width: 100%;
+}
+.main{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Single Day';
+   
+}
+.input-container{
+    display: flex;
+    flex-direction: column;
+    width: 600px;
+    margin: 50px;
+    padding: 20px;
+    background: #FFFAEE;
+    border: 1px solid #85C045;
+    box-sizing: border-box;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.3);
+    border-radius: 20px;
+}
+.input-tittle{
+    align-self: center; 
+    font-size: 1.8em; 
+    color: #745E55;
+}
+.input-name{
+    width: 473px;
+    height: 40px;
+    align-self: center;
+    background: #FFFEFE;
+    border: 1px solid #85C045;
+    box-sizing: border-box;
+    border-radius: 8px;
+}
+.tables-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-content: space-around;
+    width: 600px;
+    height: 150px;
+    margin: 50px;
+
+}
+.btn-table{
+    width: 160px;
+    height: 90px;
+    margin: 10px;
+    font-family: 'Single Day';
+    color: #BB9382;
+    font-size: 2em;
+    background: #FFFAEE;
+    border: 1px solid #85C045;
+    box-sizing: border-box;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.3);
+    border-radius: 20px;
+}
