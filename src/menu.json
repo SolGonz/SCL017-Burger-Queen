@@ -1,0 +1,84 @@
+{
+    "Menu": {
+        "IcedDrinks": [
+            {
+                "id": 1,
+                "name": "Milk bubble",
+                "price": 3000,
+                "desc": "Te frío con leche, azúcar rubia y perlas de tapioca"
+            },
+            {
+                "id": 2,
+                "name": "Grape bubble",
+                "price": 3000,
+                "desc": "Te verde con jugo de uva y perlas de tapioca"
+            },
+            {
+                "id": 3,
+                "name": "Matcha bubble",
+                "price": 3200,
+                "desc": "Te matcha frío con perlas de tapioca"
+            },
+            {
+                "id": 4,
+                "name": "Peach tea",
+                "price": 2500,
+                "desc": "Te negrio frío con jugo de durazno"
+            },
+            {
+                "id": 5,
+                "name": "Watermelon bubble",
+                "price": 3000,
+                "desc": "Te blanco con jugo de sandia y perlas de tapioca"
+            }
+         ]
+        ,
+        "HotDrinks": [
+            {
+                "id": 6,
+                "name": "Green tea",
+                "price": 1800,
+                "desc": "Te verde"
+            },
+            {
+                "id": 7,
+                "name": "Green tea",
+                "price": 1800,
+                "desc": "Te negro limón"
+            },
+            {
+                "id": 8,
+                "name": "Herbal tea",
+                "price": 1800,
+                "desc": "Infusión de hierbas"
+            }
+            
+        ],
+        "Food":[
+            {
+                "id": 9,
+                "name": "Pancakes",
+                "price": 1800,
+                "desc": "Pancakes con jarabe de maple"
+            },
+            {
+                "id": 10,
+                "name": "Cinnamon rolls",
+                "price": 1200,
+                "desc": "Rollo de canela"
+            },
+            {
+                "id": 11,
+                "name": "Pancakes",
+                "price": 2000,
+                "desc": "Pancakes con jarabe de maple"
+            },
+            {
+                "id": 12,
+                "name": "Tostadas con palta",
+                "price": 2000,
+                "desc": "Tostadas con palta"
+            }
+        ]
+    }
+}
