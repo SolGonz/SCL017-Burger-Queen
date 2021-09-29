@@ -3,7 +3,7 @@ import {
   BrowserRouter as Router,
   Switch,
   Route,
-  Link
+  // Link
 } from "react-router-dom";
 import { Bakery } from "./components/BakeryMenu/Bakery";
 import Home from "./components/Home/Home";

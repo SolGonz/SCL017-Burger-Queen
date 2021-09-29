@@ -1,6 +1,5 @@
 {
-    "Menu": {
-        "IcedDrinks": [
+        "ice": [
             {
                 "id": 1,
                 "name": "Milk bubble",
@@ -33,7 +32,7 @@
             }
          ]
         ,
-        "HotDrinks": [
+        "hot": [
             {
                 "id": 6,
                 "name": "Green tea",
@@ -54,7 +53,7 @@
             }
             
         ],
-        "Food":[
+        "food":[
             {
                 "id": 9,
                 "name": "Pancakes",
@@ -81,4 +80,3 @@
             }
         ]
     }
-}
