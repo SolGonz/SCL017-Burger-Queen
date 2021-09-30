@@ -11,6 +11,30 @@
 .img-logo{
     width: 75px;
 }
+.btn-ice{
+    background-image: url('https://firebasestorage.googleapis.com/v0/b/bobbi-tea.appspot.com/o/bubble.tea.png?alt=media&token=90acffc4-480c-42f1-a135-0945942f1c5b');
+    background-color: #FFF6F4;
+    background-repeat: no-repeat;
+    border: none;
+    width: 60px;
+    height: 70px;
+}
+.btn-hot{
+    background-image: url('https://firebasestorage.googleapis.com/v0/b/bobbi-tea.appspot.com/o/hot-drinks.png?alt=media&token=06530710-b2af-48de-99c3-5ed973410a64');
+    background-color: #FFF6F4;
+    background-repeat: no-repeat;
+    border: none;
+    width: 64px;
+    height: 70px;
+}
+.btn-food{
+    background-image: url('https://firebasestorage.googleapis.com/v0/b/bobbi-tea.appspot.com/o/cake.png?alt=media&token=75bb19e7-a591-4e80-81ee-5d739058929a');
+    background-color: #FFF6F4;
+    background-repeat: no-repeat;
+    border: none;
+    width: 64px;
+    height: 70px;
+}
 .menu-list-container{
     display: flex;
     align-items: center;

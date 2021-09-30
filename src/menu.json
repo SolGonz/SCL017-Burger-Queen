@@ -42,19 +42,22 @@
                 "id": 6,
                 "name": "Green tea",
                 "price": 1800,
-                "desc": "Te verde"
+                "desc": "Te verde",
+                "img": "https://firebasestorage.googleapis.com/v0/b/bobbi-tea.appspot.com/o/green-tea.png?alt=media&token=35354949-932a-486d-8880-86f4c4029658"
             },
             {
                 "id": 7,
-                "name": "Green tea",
+                "name": "Black tea",
                 "price": 1800,
-                "desc": "Te negro limón"
+                "desc": "Te negro",
+                "img": "https://firebasestorage.googleapis.com/v0/b/bobbi-tea.appspot.com/o/black-tea.png?alt=media&token=12b36582-ab3d-411b-a6fb-6234ad533b1d"
             },
             {
                 "id": 8,
-                "name": "Herbal tea",
+                "name": "Chai tea",
                 "price": 1800,
-                "desc": "Infusión de hierbas"
+                "desc": "Te negro con mezcla de especias",
+                "img": "https://firebasestorage.googleapis.com/v0/b/bobbi-tea.appspot.com/o/chai-tea.png?alt=media&token=5eec5d44-3fc6-4a60-858d-e24881dd6367"
             }
             
         ],
@@ -63,25 +66,29 @@
                 "id": 9,
                 "name": "Pancakes",
                 "price": 1800,
-                "desc": "Pancakes con jarabe de maple"
+                "desc": "Pancakes con jarabe de maple",
+                "img": "https://firebasestorage.googleapis.com/v0/b/bobbi-tea.appspot.com/o/pancake.png?alt=media&token=4c3b37e6-c63b-431a-9380-480ab953ea4f"
             },
             {
                 "id": 10,
                 "name": "Cinnamon rolls",
                 "price": 1200,
-                "desc": "Rollo de canela"
+                "desc": "Rollo de canela",
+                "img": "https://firebasestorage.googleapis.com/v0/b/bobbi-tea.appspot.com/o/cinnamon-roll.png?alt=media&token=4c0a22bf-8b64-4d64-a911-547fddae55c7"
             },
             {
                 "id": 11,
-                "name": "Pancakes",
+                "name": "Choco pie",
                 "price": 2000,
-                "desc": "Pancakes con jarabe de maple"
+                "desc": "Trozo de pastel de chocolate",
+                "img": "https://firebasestorage.googleapis.com/v0/b/bobbi-tea.appspot.com/o/choco-pie.png?alt=media&token=c4bb4102-5d31-43a7-9712-eedf7f44cd5d"
             },
             {
                 "id": 12,
                 "name": "Tostadas con palta",
                 "price": 2000,
-                "desc": "Tostadas con palta"
+                "desc": "Tostadas con palta",
+                "img": "https://firebasestorage.googleapis.com/v0/b/bobbi-tea.appspot.com/o/avocado-toast.png?alt=media&token=7a7aa88a-8cbc-40ce-b7e6-1bc9f2f1f394"
             }
         ]
     }

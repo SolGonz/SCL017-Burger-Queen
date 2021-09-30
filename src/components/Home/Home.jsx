@@ -39,7 +39,13 @@ const Home = () => {
 
     return (
         <div className="home-container">
-            <Sidebar></Sidebar>
+            <aside className="sidebar-home">
+            <div className="logo">
+                    <a href="/home">
+                         <img className="img-logo" src="https://firebasestorage.googleapis.com/v0/b/bobbi-tea.appspot.com/o/logo.png?alt=media&token=7204a33c-a5d0-4716-aec1-f868f0a712bc" alt="random"></img>
+                    </a>
+                </div>
+            </aside>
             <div className="main">
                 <form className="form" onSubmit={enviar}>
                     <h4 className="tables-tittle">Nombre cliente</h4>

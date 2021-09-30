@@ -7,7 +7,7 @@ import { Sidebar } from '../Home/Sidebar/Sidebar'
 
 export const IceDrinks = () => {
 
-    const ice = menu.ice
+    const iceItems = menu.ice
 
 
     return (
@@ -17,7 +17,7 @@ export const IceDrinks = () => {
                 <div className="menu-container">
                     <div className="card-container">
                         {
-                            ice.map((item) =>{
+                            iceItems.map((item) =>{
                                return <div key={item.id} className="card-item">
                                         <h4 className="item-tittle">{item.name}</h4>
                                         <img src={item.img} alt="item menu" className="item-img" />
