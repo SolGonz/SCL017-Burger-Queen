@@ -1,9 +1,10 @@
 import React from 'react'
+import { Sidebar } from '../Home/Sidebar/Sidebar'
 
 export const HotDrinks = () => {
     return (
         <div>
-            <h1>Soy hot</h1>
+            <Sidebar />
         </div>
     )
 }

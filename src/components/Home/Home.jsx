@@ -32,9 +32,6 @@ const Home = () => {
         } catch (error) {
 
         }
-
-
-
         console.log(costumer)
         console.log(table)
         window.location.href = '/ice-drinks'

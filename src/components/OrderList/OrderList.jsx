@@ -1,9 +1,10 @@
 import React from 'react'
+import { Sidebar } from '../Home/Sidebar/Sidebar'
 
 export const OrderList = () => {
     return (
         <div>
-            <h1>soy los pedidos</h1>
+            <Sidebar />
         </div>
     )
 }

@@ -1,11 +1,26 @@
-.nav-container{
-    background-color:#FFF6F4;;
-    height: 100vh;
-    width: 8%;
+
+.sidebar{
     display: flex;
-    justify-self: flex-start;
+    flex-direction: column;
+    height: 100vh;
+    width: 85px;
+    align-items: center;
+    background-color: #FFF6F4;
+    border-radius: 8px;
+}
+.img-logo{
+    width: 75px;
+}
+.menu-list-container{
+    display: flex;
+    align-items: center;
     justify-content: center;
 }
+.name-menu{
+    margin: -9px 3px 50px 3px;
+    color:#745E55;
+}
 .img-sidebar{
-    margin-top: 6px;
+    width: 53px;
+    margin: 0 12px;
 }

@@ -4,18 +4,6 @@
     background-color:  #FFFEFB;
     ;
 }
-.sidebar{
-    display: flex;
-    flex-direction: column;
-    width: 8%;
-    height: 100vh;
-    align-items: center;
-    background-color: #FFF6F4;
-    border-radius: 8px;
-}
-/* .logo{
-
-} */
 .menu-list-container{
     display: flex;
     flex-direction: column;
@@ -27,14 +15,76 @@
 .pos-container{
     display: flex;
     flex-direction: row;
-    width: 98%;
+    width: 100%;
 }
 .menu-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     width: 70%;
     height: 100vh;
+}
+.card-container{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 50px;
+}
+.card-item{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 250px;
+    padding: 10px;
+    margin: 10px;
+    background-color: #FFFAEE;
+    border: 1px solid #85C045;
+    box-sizing: border-box;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.3);
+    border-radius: 10px;
+
+}
+.item-tittle{
+    font-family: 'Single Day';
+    font-size: 1.2em;
+    color: #745E55;
+    margin: 0;
+}
+.item-img{
+    width: 40px;
+}
+.item-desc{
+    font-size: 0.9em;
+}
+.item-btn{
+    background: #85C045;
+    font-family: 'Single Day';
+    color: #FFFAEE;
+    font-size: 0.9em;
+    width: 120px;
+    height: 30px;
+    border: 1px solid #85C045;
+    box-sizing: border-box;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.3);
+    border-radius: 20px;
 }
 .order-container{
     width: 30%;
     height: 100vh;
     background-color: #FFF6F4;
+}
+.btn-orders{
+    text-align: center;
+    background-image: url("https://firebasestorage.googleapis.com/v0/b/bobbi-tea.appspot.com/o/notes.png?alt=media&token=53ea5324-4791-448b-a215-3e8a6805f120");
+    background-repeat: no-repeat;
+    border: none;
+    height: 38px;
+    width: 32px;
+    margin-top: 40px;
+
+}
+.p-btn{
+    margin: 0px;
+    font-family: 'Single Day';
+    font-size: 1.2em ;
 }

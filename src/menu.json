@@ -1,34 +1,39 @@
-{
+    {
         "ice": [
             {
                 "id": 1,
                 "name": "Milk bubble",
                 "price": 3000,
-                "desc": "Te frío con leche, azúcar rubia y perlas de tapioca"
+                "desc": "Te frío con leche, azúcar rubia y perlas de tapioca",
+                "img": "https://firebasestorage.googleapis.com/v0/b/bobbi-tea.appspot.com/o/milk-bubble.png?alt=media&token=94bb9887-501d-4d4b-b5ce-cec943978422"
             },
             {
                 "id": 2,
                 "name": "Grape bubble",
                 "price": 3000,
-                "desc": "Te verde con jugo de uva y perlas de tapioca"
+                "desc": "Te verde con jugo de uva y perlas de tapioca",
+                "img": "https://firebasestorage.googleapis.com/v0/b/bobbi-tea.appspot.com/o/grape-bubble.png?alt=media&token=61fc3b71-e551-4d74-aace-ef18e7e24dc7"
             },
             {
                 "id": 3,
                 "name": "Matcha bubble",
                 "price": 3200,
-                "desc": "Te matcha frío con perlas de tapioca"
+                "desc": "Te matcha frío con perlas de tapioca",
+                "img": "https://firebasestorage.googleapis.com/v0/b/bobbi-tea.appspot.com/o/matcha-tea.png?alt=media&token=c8611975-8c49-4609-b0bc-f1e75570dcfd"
             },
             {
                 "id": 4,
                 "name": "Peach tea",
                 "price": 2500,
-                "desc": "Te negrio frío con jugo de durazno"
+                "desc": "Te negrio frío con jugo de durazno",
+                "img": "https://firebasestorage.googleapis.com/v0/b/bobbi-tea.appspot.com/o/peach-tea.png?alt=media&token=1772afea-b1af-476c-a943-e533a4e402dc"
             },
             {
                 "id": 5,
                 "name": "Watermelon bubble",
                 "price": 3000,
-                "desc": "Te blanco con jugo de sandia y perlas de tapioca"
+                "desc": "Te blanco con jugo de sandia y perlas de tapioca",
+                "img": "https://firebasestorage.googleapis.com/v0/b/bobbi-tea.appspot.com/o/watermelon-tea%20.png?alt=media&token=7228bc91-941b-467b-8ddd-ddca7f3b968a"
             }
          ]
         ,

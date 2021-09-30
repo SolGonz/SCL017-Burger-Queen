@@ -1,9 +1,10 @@
 import React from 'react'
+import { Sidebar } from '../Home/Sidebar/Sidebar'
 
 export const Bakery = () => {
     return (
         <div>
-            <h1>Soy la comidita</h1>
+            <Sidebar />
         </div>
     )
 }
