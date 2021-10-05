@@ -55,6 +55,13 @@
 }
 .item-desc{
     font-size: 0.9em;
+    margin: 2px;
+    text-align: center;
+}
+.item-price{
+    margin: 2px;
+    font-size: 1.2rem;
+    font-family: 'Single Day';
 }
 .item-btn{
     background: #85C045;

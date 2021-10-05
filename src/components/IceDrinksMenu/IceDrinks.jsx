@@ -2,6 +2,7 @@ import React from 'react'
 import './IceDrinks.css'
 import menu from '../../menu.json'
 import { Sidebar } from '../Home/Sidebar/Sidebar'
+import { OrderList } from '../OrderList/OrderList'
 
 // console.log(menu)
 
@@ -22,6 +23,7 @@ export const IceDrinks = () => {
                                         <h4 className="item-tittle">{item.name}</h4>
                                         <img src={item.img} alt="item menu" className="item-img" />
                                         <p className="item-desc">{item.desc}</p>
+                                        <p className="item-price">${item.price}</p>
                                         <button className="item-btn">Agregar a orden</button>   
                                     </div>
                             })
@@ -30,7 +32,9 @@ export const IceDrinks = () => {
                     <button className="btn-orders"></button>
                     <p className="p-btn">Lista de pedidos</p>
                 </div>
-                <div className="order-container"></div>
+                <div className="order-container">
+                    <OrderList />
+                </div>
             </main>
         </div>
     )
