@@ -1,7 +1,9 @@
 import React from 'react'
 import './Sidebar.css'
+import { Link } from 'react-router-dom'
 
 export const Sidebar = () => {
+
     return (
         <div className="nav-container">
              <aside className="sidebar"> 
@@ -11,11 +13,17 @@ export const Sidebar = () => {
                     </a>
                 </div>
                 <div className="menu-list-container">
-                    <button className="btn-ice"></button>
+                    <Link to="/ice-drinks">
+                        <button className="btn-ice" ></button>
+                    </Link>
                     <h4 className="name-menu">Ice drinks</h4>
-                    <button className="btn-hot"></button>
+                    <Link to="/hot-drinks">
+                        <button className="btn-hot"></button>
+                    </Link>
                     <h4 className="name-menu">Hot drinks</h4>
-                    <button className="btn-food"></button>
+                    <Link to="/bakery">
+                        <button className="btn-food"></button>
+                    </Link>
                     <h4 className="name-menu">Pastelería</h4>
                 </div>
             </aside>

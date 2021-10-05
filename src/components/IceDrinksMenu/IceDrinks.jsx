@@ -4,11 +4,20 @@ import menu from '../../menu.json'
 import { Sidebar } from '../Home/Sidebar/Sidebar'
 import { OrderList } from '../OrderList/OrderList'
 
-// console.log(menu)
 
 export const IceDrinks = () => {
+    const menuIce = menu.ice
 
-    const iceItems = menu.ice
+    console.log(menuIce)
+    
+    //estado del menu de ice drinks
+    const [iceDrinks, setIceDrinks] = React.useState(menuIce)
+
+    //Estado de las ordenes
+    const [orderList, setOrderList] = React.useState([])
+
+    console.log(orderList)
+
 
 
     return (
@@ -18,7 +27,7 @@ export const IceDrinks = () => {
                 <div className="menu-container">
                     <div className="card-container">
                         {
-                            iceItems.map((item) =>{
+                            menuIce.map((item) =>{
                                return <div key={item.id} className="card-item">
                                         <h4 className="item-tittle">{item.name}</h4>
                                         <img src={item.img} alt="item menu" className="item-img" />
