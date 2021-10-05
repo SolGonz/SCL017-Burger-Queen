@@ -48,3 +48,22 @@
     width: 53px;
     margin: 0 12px;
 }
+.btn-order-container{
+    justify-self: flex-end;
+    margin: 8px;
+}
+.btn-order{
+    text-align: center;
+    background-image: url("https://firebasestorage.googleapis.com/v0/b/bobbi-tea.appspot.com/o/notes.png?alt=media&token=53ea5324-4791-448b-a215-3e8a6805f120");
+    background-repeat: no-repeat;
+    border: none;
+    height: 38px;
+    width: 32px;
+    margin: 0 10px;
+
+}
+.p-btn-order{
+    margin: 0px;
+    font-family: 'Single Day';
+    font-size: 1em ;
+}

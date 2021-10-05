@@ -24,8 +24,6 @@ export const Bakery = () => {
                         })
                     }
                 </div> 
-                <button className="btn-orders"></button>
-                <p className="p-btn">Lista de pedidos</p>
             </div>
             <div className="order-container"></div>
         </main>

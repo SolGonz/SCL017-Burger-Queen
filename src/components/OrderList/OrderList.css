@@ -1,0 +1,10 @@
+.order-tittle{
+    font-family: 'Single Day';
+    margin: 2px 0;
+}
+.order-subt{
+    justify-self: left;
+}
+.container-item{
+    background-color: white;
+}

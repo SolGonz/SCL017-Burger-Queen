@@ -51,7 +51,7 @@ const Home = () => {
                     <input 
                         className="input-name" 
                         type="text" 
-                        placeholder= "Igresa nombre de cliente"
+                        placeholder= "Ingresa nombre de cliente"
                         onChange = { e => setCostumer(e.target.value)}
                         value={costumer}
                         />

@@ -21,13 +21,15 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    width: 70%;
-    height: 100vh;
+    justify-content: center;
+    width: 69%;
 }
 .card-container{
     display: flex;
     flex-wrap: wrap;
-    margin: 0 50px;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
 }
 .card-item{
     display: flex;
@@ -76,22 +78,7 @@
     border-radius: 20px;
 }
 .order-container{
-    width: 30%;
+    width: 31%;
     height: 100vh;
     background-color: #FFF6F4;
-}
-.btn-orders{
-    text-align: center;
-    background-image: url("https://firebasestorage.googleapis.com/v0/b/bobbi-tea.appspot.com/o/notes.png?alt=media&token=53ea5324-4791-448b-a215-3e8a6805f120");
-    background-repeat: no-repeat;
-    border: none;
-    height: 38px;
-    width: 32px;
-    margin-top: 40px;
-
-}
-.p-btn{
-    margin: 0px;
-    font-family: 'Single Day';
-    font-size: 1.2em ;
 }

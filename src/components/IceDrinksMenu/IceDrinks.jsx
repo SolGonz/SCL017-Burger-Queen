@@ -8,15 +8,31 @@ import { OrderList } from '../OrderList/OrderList'
 export const IceDrinks = () => {
     const menuIce = menu.ice
 
-    console.log(menuIce)
     
     //estado del menu de ice drinks
-    const [iceDrinks, setIceDrinks] = React.useState(menuIce)
+    // const [iceDrinks, setIceDrinks] = React.useState(menuIce)
 
     //Estado de las ordenes
-    const [orderList, setOrderList] = React.useState([])
+    const [orderItems, setOrderItems] = React.useState([])
 
-    console.log(orderList)
+    const onAdd = (item) => {
+        const exist = orderItems.find(x => x.id === item.id)
+        if (exist){
+            setOrderItems(orderItems.map(x => x.id === item.id ? {...exist, qty: exist.qty +1} : x) )
+        } else {
+            setOrderItems([...orderItems, {...item, qty: 1}])
+        }
+    }
+
+    const onRemove = (item) => {
+        const exist = orderItems.find(x => x.id === item.id)
+        if (exist.qty === 1){
+            setOrderItems(orderItems.filter(x => x.id !== item.id))
+        } else {
+            setOrderItems(orderItems.map(x => x.id === item.id ? {...exist, qty: exist.qty - 1} : x) )
+        }
+    }
+
 
 
 
@@ -33,16 +49,18 @@ export const IceDrinks = () => {
                                         <img src={item.img} alt="item menu" className="item-img" />
                                         <p className="item-desc">{item.desc}</p>
                                         <p className="item-price">${item.price}</p>
-                                        <button className="item-btn">Agregar a orden</button>   
+                                        <button onClick={() => onAdd(item)} className="item-btn">Agregar a orden</button>   
                                     </div>
                             })
                         }
                     </div> 
-                    <button className="btn-orders"></button>
-                    <p className="p-btn">Lista de pedidos</p>
                 </div>
                 <div className="order-container">
-                    <OrderList />
+                    <OrderList 
+                        onAdd={onAdd}
+                        onRemove={onRemove}
+                        orderItems={orderItems}
+                    />
                 </div>
             </main>
         </div>
