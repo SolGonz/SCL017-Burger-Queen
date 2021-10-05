@@ -1,5 +1,4 @@
 import React from 'react'
-import { Sidebar } from './Sidebar/Sidebar'
 import './Home.css'
 import { db } from '../../firebase'
 
