@@ -31,6 +31,10 @@ export const OrderList = (props) => {
                 <hr />
                 <div></div>
                 <div>${totalOrder}</div>
+                <div>
+                    <button>Enviar</button>
+                    <button>Cancelar</button>
+                </div>
                 </>
             )}
         </div>

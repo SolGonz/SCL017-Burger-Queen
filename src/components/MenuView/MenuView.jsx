@@ -1,16 +1,15 @@
 import React from 'react'
-import './IceDrinks.css'
+import './MenuView.css'
 import menu from '../../menu.json'
 import { Sidebar } from '../Home/Sidebar/Sidebar'
 import { OrderList } from '../OrderList/OrderList'
 
 
-export const IceDrinks = () => {
-    const menuIce = menu.ice
+export const Menu = () => {
 
-    
-    //estado del menu de ice drinks
-    // const [iceDrinks, setIceDrinks] = React.useState(menuIce)
+    const menuIce = menu.ice
+    const menuHot = menu.hot
+    const menuFood = menu.food
 
     //Estado de las ordenes
     const [orderItems, setOrderItems] = React.useState([])
@@ -38,7 +37,7 @@ export const IceDrinks = () => {
 
     return (
         <div className="main-menu">
-            <Sidebar></Sidebar>
+            <Sidebar/>
             <main className="pos-container">
                 <div className="menu-container">
                     <div className="card-container">
@@ -53,7 +52,29 @@ export const IceDrinks = () => {
                                     </div>
                             })
                         }
-                    </div> 
+                        {
+                            menuHot.map((item) =>{
+                               return <div key={item.id} className="card-item">
+                                        <h4 className="item-tittle">{item.name}</h4>
+                                        <img src={item.img} alt="item menu" className="item-img" />
+                                        <p className="item-desc">{item.desc}</p>
+                                        <p className="item-price">${item.price}</p>
+                                        <button onClick={() => onAdd(item)} className="item-btn">Agregar a orden</button>   
+                                    </div>
+                            })
+                        }
+                        {
+                            menuFood.map((item) =>{
+                               return <div key={item.id} className="card-item">
+                                        <h4 className="item-tittle">{item.name}</h4>
+                                        <img src={item.img} alt="item menu" className="item-img" />
+                                        <p className="item-desc">{item.desc}</p>
+                                        <p className="item-price">${item.price}</p>
+                                        <button onClick={() => onAdd(item)} className="item-btn">Agregar a orden</button>   
+                                    </div>
+                            })
+                        }
+                    </div>
                 </div>
                 <div className="order-container">
                     <OrderList 
