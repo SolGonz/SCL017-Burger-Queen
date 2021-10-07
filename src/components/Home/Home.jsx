@@ -20,20 +20,22 @@ const Home = () => {
             const newOrder = {
                 name: costumer,
                 table: table,
-                fecha: Date.now()
+                fecha: Date.now(),
             }
             const orders = await db.collection('orders').add(newOrder)
             setTable('')
             setCostumer('')
-
             console.log(orders)
+
+    
 
         } catch (error) {
 
         }
         console.log(costumer)
         console.log(table)
-        window.location.href = '/ice-drinks'
+        
+        window.location.href = '/menu'
     }
 
     return (

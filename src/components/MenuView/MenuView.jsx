@@ -1,7 +1,7 @@
 import React from 'react'
 import './MenuView.css'
 import menu from '../../menu.json'
-import { Sidebar } from '../Home/Sidebar/Sidebar'
+import { Sidebar} from '../Home/Sidebar/Sidebar'
 import { OrderList } from '../OrderList/OrderList'
 
 
@@ -37,7 +37,7 @@ export const Menu = () => {
 
     return (
         <div className="main-menu">
-            <Sidebar/>
+            <Sidebar></Sidebar>
             <main className="pos-container">
                 <div className="menu-container">
                     <div className="card-container">
@@ -81,6 +81,7 @@ export const Menu = () => {
                         onAdd={onAdd}
                         onRemove={onRemove}
                         orderItems={orderItems}
+                        setOrderItems={setOrderItems}
                     />
                 </div>
             </main>
