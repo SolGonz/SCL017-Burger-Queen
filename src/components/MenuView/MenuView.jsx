@@ -40,6 +40,7 @@ export const Menu = () => {
             <Sidebar></Sidebar>
             <main className="pos-container">
                 <div className="menu-container">
+                <h3>Bebidas frias</h3>
                     <div className="card-container">
                         {
                             menuIce.map((item) =>{
@@ -52,6 +53,9 @@ export const Menu = () => {
                                     </div>
                             })
                         }
+                    </div>
+                    <h3>Bebidas calientes</h3>
+                    <div className="card-container">
                         {
                             menuHot.map((item) =>{
                                return <div key={item.id} className="card-item">
@@ -63,6 +67,9 @@ export const Menu = () => {
                                     </div>
                             })
                         }
+                    </div>
+                    <h3>Comida</h3>
+                    <div className="card-container"> 
                         {
                             menuFood.map((item) =>{
                                return <div key={item.id} className="card-item">
@@ -74,9 +81,10 @@ export const Menu = () => {
                                     </div>
                             })
                         }
-                    </div>
+                </div>
                 </div>
                 <div className="order-container">
+                    <h2 className="order-tittle">Order list</h2>
                     <OrderList 
                         onAdd={onAdd}
                         onRemove={onRemove}

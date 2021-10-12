@@ -7,6 +7,7 @@ import {
 } from "react-router-dom";
 
 import Home from "./components/Home/Home";
+import { Kitchen } from "./components/Kitchen/Kitchen";
 import {Menu} from "./components/MenuView/MenuView"
 
 
@@ -20,6 +21,9 @@ function App() {
         </Route>
         <Route path="/menu">
           <Menu></Menu>
+        </Route>
+        <Route path="/kitchen">
+          <Kitchen></Kitchen>
         </Route>
         <Route path="/" exact>
           <Home></Home>

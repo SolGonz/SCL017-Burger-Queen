@@ -1,10 +1,47 @@
 .order-tittle{
     font-family: 'Single Day';
-    margin: 2px 0;
+    margin: 2px 0 0 ;
 }
 .order-subt{
     justify-self: left;
 }
-.container-item{
-    background-color: white;
+.items-container{
+    display: flex;
+    flex-direction: column;
+}
+.item-card{
+    background-color: #FFFEFB;
+    border: 1px solid #85C045;
+    border-radius: 5px;
+    margin: 2%;
+}
+.item-order-tittle{
+    margin: 5px;
+    font-size: 1.7em;
+    font-family: 'Single Day';
+}
+.order-details{
+    margin: 10px;
+    font-size: 1.2em;
+}
+.card-btn{
+    margin: 10px;
+    background-color: #85C045;
+    border: none;
+    font-size: 1.5em;
+    width: 35px;
+}
+.total-order{
+    margin: 2%;;
+    font-size: 1.2em;
+}
+.send-btn{
+    background-color: #85C045;
+    width: 100px;
+    height: 30px;
+    margin: 2%;
+    border: none;
+    border-radius: 7px;
+    font-size: 1.3em;
+    font-family: 'Single Day';
 }
